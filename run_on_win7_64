@@ -1,0 +1,22 @@
+
+problem 1
+https://stackoverflow.com/questions/35064304/runtimeerror-make-sure-the-graphviz-executables-are-on-your-systems-path-aft
+9
+down vote
+For Windows:
+
+Install windows package from: http://www.graphviz.org/Download_windows.php
+Install python graphviz package
+Add C:\Program Files (x86)\Graphviz2.38\bin to User path
+Add C:\Program Files (x86)\Graphviz2.38\bin\dot.exe to System Path
+This worked for me!
+
+shareimprove this answer
+edited May 16 '17 at 15:53
+
+amarnath
+76131619
+answered May 16 '17 at 15:05
+
+Jyotsna_b
+9813
